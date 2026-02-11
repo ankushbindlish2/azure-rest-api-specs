@@ -35,7 +35,7 @@ enum Versions {
 model FileShare is Azure.ResourceManager.TrackedResource<FileShareProperties> {
   @doc("The resource name of the file share, as seen by the administrator through Azure Resource Manager.")
   @pattern("^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$")
-  @key("name")
+  @key("fileShareName")
   @path
   @segment("fileShares")
   name: string;
@@ -360,7 +360,7 @@ model FileShareSnapshot
   is Azure.ResourceManager.ProxyResource<FileShareSnapshotProperties> {
   ...ResourceNameParameter<
     Resource = FileShareSnapshot,
-    KeyName = "name",
+    KeyName = "snapshotName",
     NamePattern = "^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$",
     SegmentName = "fileShareSnapshots"
   >;

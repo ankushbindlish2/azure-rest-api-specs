@@ -371,7 +371,7 @@
         }
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}": {
       "get": {
         "operationId": "FileShares_Get",
         "tags": [
@@ -389,7 +389,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -434,7 +434,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -509,7 +509,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -581,7 +581,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -625,7 +625,7 @@
         "x-ms-long-running-operation": true
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/fileShareSnapshots": {
       "get": {
         "operationId": "FileShareSnapshot_List",
         "tags": [
@@ -643,7 +643,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -678,7 +678,7 @@
         }
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/fileShareSnapshots/{name}": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/fileShareSnapshots/{snapshotName}": {
       "get": {
         "operationId": "FileShareSnapshot_Get",
         "tags": [
@@ -696,7 +696,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -704,7 +704,7 @@
             "pattern": "^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$"
           },
           {
-            "name": "name",
+            "name": "snapshotName",
             "in": "path",
             "description": "The name of the FileShareSnapshot",
             "required": true,
@@ -749,7 +749,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -757,7 +757,7 @@
             "pattern": "^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$"
           },
           {
-            "name": "name",
+            "name": "snapshotName",
             "in": "path",
             "description": "The name of the FileShareSnapshot",
             "required": true,
@@ -827,7 +827,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -835,7 +835,7 @@
             "pattern": "^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$"
           },
           {
-            "name": "name",
+            "name": "snapshotName",
             "in": "path",
             "description": "The name of the FileShareSnapshot",
             "required": true,
@@ -911,7 +911,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -919,7 +919,7 @@
             "pattern": "^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$"
           },
           {
-            "name": "name",
+            "name": "snapshotName",
             "in": "path",
             "description": "The name of the FileShareSnapshot",
             "required": true,
@@ -963,7 +963,7 @@
         "x-ms-long-running-operation": true
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/privateEndpointConnections": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/privateEndpointConnections": {
       "get": {
         "operationId": "PrivateEndpointConnections_ListByFileShare",
         "tags": [
@@ -981,7 +981,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -1013,7 +1013,7 @@
         }
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/privateEndpointConnections/{privateEndpointConnectionName}": {
       "get": {
         "operationId": "PrivateEndpointConnections_Get",
         "tags": [
@@ -1031,7 +1031,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -1079,7 +1079,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -1159,7 +1159,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -1214,7 +1214,7 @@
         "x-ms-long-running-operation": true
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/privateLinkResources": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/privateLinkResources": {
       "get": {
         "operationId": "PrivateLinkResources_List",
         "tags": [
@@ -1232,7 +1232,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
@@ -1264,7 +1264,7 @@
         }
       }
     },
-    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{resourceName}/privateLinkResources/{privateLinkResourceName}": {
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.FileShares/fileShares/{fileShareName}/privateLinkResources/{privateLinkResourceName}": {
       "get": {
         "operationId": "PrivateLinkResources_Get",
         "tags": [
@@ -1282,7 +1282,7 @@
             "$ref": "../../../../../../common-types/resource-management/v6/types.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "name": "resourceName",
+            "name": "fileShareName",
             "in": "path",
             "description": "The resource name of the file share, as seen by the administrator through Azure Resource Manager.",
             "required": true,
