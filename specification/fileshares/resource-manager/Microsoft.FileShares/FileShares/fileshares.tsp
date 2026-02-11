@@ -35,6 +35,7 @@ enum Versions {
 model FileShare is Azure.ResourceManager.TrackedResource<FileShareProperties> {
   @doc("The resource name of the file share, as seen by the administrator through Azure Resource Manager.")
   @pattern("^([a-z]|[0-9])([a-z]|[0-9]|(-(?!-))){1,61}([a-z]|[0-9])$")
+  @key("name")
   @path
   @segment("fileShares")
   name: string;
