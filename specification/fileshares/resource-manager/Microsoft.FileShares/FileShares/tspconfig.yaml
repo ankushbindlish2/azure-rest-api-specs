@@ -40,7 +40,7 @@ options:
     generate-fakes: true
     head-as-boolean: true
     inject-spans: true
-"@azure-tools/typespec-powershell":
+  "@azure-tools/typespec-powershell":
     service-dir: "src"
     package-dir: "FileShare/FileShare.Autorest"
     clear-output-folder: true
