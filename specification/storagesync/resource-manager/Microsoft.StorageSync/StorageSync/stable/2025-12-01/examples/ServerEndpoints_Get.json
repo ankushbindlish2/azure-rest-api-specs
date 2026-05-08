@@ -165,7 +165,18 @@
               "perItemErrorCount": 0,
               "timestamp": "2018-06-11T23:32:51.1057915Z",
               "totalBytes": 19583674,
-              "totalItemCount": 300
+              "totalItemCount": 300,
+              "remainingFileCount": 200,
+              "remainingDirectoryCount": 50,
+              "remainingDeleteCount": 10,
+              "remainingLogicalSizeBytes": 1048576,
+              "isRemainingFinal": true,
+              "recentItemsPerSecond": 15.5,
+              "recentMegabytesPerSecond": 2.3,
+              "inProgressLargeFilePath": "",
+              "inProgressLargeFileSizeBytes": 0,
+              "inProgressLargeFilePercentComplete": 0,
+              "warning": "NoWarning"
             },
             "downloadHealth": "Healthy",
             "downloadStatus": {
@@ -187,7 +198,18 @@
               "perItemErrorCount": 300,
               "timestamp": "2018-06-11T23:32:51.1057915Z",
               "totalBytes": 1958367412,
-              "totalItemCount": 2300
+              "totalItemCount": 2300,
+              "remainingFileCount": 1300,
+              "remainingDirectoryCount": 100,
+              "remainingDeleteCount": 25,
+              "remainingLogicalSizeBytes": 1901018429,
+              "isRemainingFinal": true,
+              "recentItemsPerSecond": 22.1,
+              "recentMegabytesPerSecond": 3.7,
+              "inProgressLargeFilePath": "",
+              "inProgressLargeFileSizeBytes": 0,
+              "inProgressLargeFilePercentComplete": 0,
+              "warning": "NoWarning"
             },
             "uploadHealth": "Error",
             "uploadStatus": {

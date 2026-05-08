@@ -69,7 +69,18 @@
               "appliedBytes": 0,
               "totalBytes": 0,
               "syncMode": "Regular",
-              "sessionMinutesRemaining": 0
+              "sessionMinutesRemaining": 0,
+              "remainingFileCount": 0,
+              "remainingDirectoryCount": 0,
+              "remainingDeleteCount": 0,
+              "remainingLogicalSizeBytes": 0,
+              "isRemainingFinal": false,
+              "recentItemsPerSecond": 0.0,
+              "recentMegabytesPerSecond": 0.0,
+              "inProgressLargeFilePath": "",
+              "inProgressLargeFileSizeBytes": 0,
+              "inProgressLargeFilePercentComplete": 0,
+              "warning": "NoWarning"
             },
             "downloadActivity": {
               "timestamp": "2025-12-03T20:59:56.719Z",
@@ -79,7 +90,18 @@
               "appliedBytes": 0,
               "totalBytes": 0,
               "syncMode": "Regular",
-              "sessionMinutesRemaining": 0
+              "sessionMinutesRemaining": 0,
+              "remainingFileCount": 0,
+              "remainingDirectoryCount": 0,
+              "remainingDeleteCount": 0,
+              "remainingLogicalSizeBytes": 0,
+              "isRemainingFinal": false,
+              "recentItemsPerSecond": 0.0,
+              "recentMegabytesPerSecond": 0.0,
+              "inProgressLargeFilePath": "",
+              "inProgressLargeFileSizeBytes": 0,
+              "inProgressLargeFilePercentComplete": 0,
+              "warning": "NoWarning"
             },
             "offlineDataTransferStatus": "InProgress",
             "backgroundDataDownloadActivity": {
