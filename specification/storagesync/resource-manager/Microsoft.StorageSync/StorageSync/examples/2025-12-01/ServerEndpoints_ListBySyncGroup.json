@@ -290,7 +290,18 @@
                   "perItemErrorCount": 300,
                   "timestamp": "2018-06-11T23:32:51.1057915Z",
                   "totalBytes": 1958367412,
-                  "totalItemCount": 2300
+                  "totalItemCount": 2300,
+                  "remainingFileCount": 1300,
+                  "remainingDirectoryCount": 100,
+                  "remainingDeleteCount": 25,
+                  "remainingLogicalSizeBytes": 1901018429,
+                  "isRemainingFinal": true,
+                  "recentItemsPerSecond": 22.1,
+                  "recentMegabytesPerSecond": 3.7,
+                  "inProgressLargeFilePath": "",
+                  "inProgressLargeFileSizeBytes": 0,
+                  "inProgressLargeFilePercentComplete": 0,
+                  "warning": "NoWarning"
                 },
                 "uploadHealth": "Healthy",
                 "uploadStatus": {
